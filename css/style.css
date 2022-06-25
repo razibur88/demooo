@@ -1,0 +1,58 @@
+/* home page css star  */
+.main{
+    position: relative;
+}
+.main input.oneee{
+    height: 40px;
+    width: 0px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+.main input.one{
+    height: 40px;
+    width: 150px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    background-color:#fff;
+    border: 2px solid red;
+}
+.icon i{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#banner{
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    padding: 500px 0;
+}
+#footer{
+    background-color: #353535;
+    padding: 200px 0;
+}
+/* home page css end */
+/* about page css start  */
+#about{
+    background: red;
+    padding: 300px 0;
+}
+/* about page css end  */
+/* contact page css start  */
+#contact{
+    background: gray;
+    padding: 300px 0;
+}
+/* contact page css end  */
